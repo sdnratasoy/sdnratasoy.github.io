@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sude Nur Atasoy | Siber Güvenlik & Web Geliştirme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Tema Değiştir">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <button class="language-toggle" id="languageToggle" aria-label="Dil Değiştir">
+        <span class="lang-text">EN</span>
+    </button>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Sude Nur Atasoy</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link" data-tr="Hakkımda" data-en="About">Hakkımda</a></li>
+                <li><a href="#skills" class="nav-link" data-tr="Yetenekler" data-en="Skills">Yetenekler</a></li>
+                <li><a href="#contact" class="nav-link" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Sude Nur Atasoy">Sude Nur Atasoy</h1>
+                <div class="typing-container">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description" data-lang="hero_description">Siber Güvenlik & Web Geliştirme Meraklısı</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary" data-lang="btn_explore">Keşfet</a>
+                    <a href="#contact" class="btn btn-secondary" data-lang="btn_contact">İletişim</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="profile-circle">
+                        <img src="assets/img/1.jpg" alt="Sude Nur Atasoy" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span> <span data-lang="about_title">Hakkımda</span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in" data-lang="about_p1">
+                        Merhaba! Ben <span class="highlight">Sude Nur Atasoy</span>.
+                        Son sınıf Bilgisayar Mühendisliği öğrencisiyim. Algoritmalar, veri yapıları
+                        ve makine öğrenimi konularında güçlü bir altyapıya sahibim.
+                    </p>
+                    <p class="fade-in" data-lang="about_p2">
+                        C, Java, Python ,Php ve C# dillerini kullanarak çeşitli projeler geliştirdim.
+                        React.js, Next.js ve Angular gibi modern web teknolojileriyle web uygulamaları
+                        geliştirdim; ayrıca C# ile masaüstü yazılımlar oluşturdum. Python ile gerçek
+                        dünya verileri üzerinde veri analizi ve makine öğrenimi modelleme deneyimi edindim.
+                    </p>
+                    <p class="fade-in" data-lang="about_p3">
+                        Siber güvenliğe büyük bir ilgi duyuyorum. 2025 Türkiye <span class="highlight">Siber Vatan
+                            Programı</span>
+                        kapsamında 120 saatlik ileri seviye eğitimi tamamladım ve ayrıca
+                        <span class="highlight">Siber Vatan Bootcamp</span> programına katılarak proje tabanlı
+                        uygulamalarla yetkinliklerimi geliştirdim.
+                    </p>
+
+                    <div class="education-card fade-in">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Karabük Üniversitesi</h3>
+                            <p data-lang="education">Bilgisayar Mühendisliği</p>
+                            <span class="year">2021 - 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Aras Kargo</h3>
+                        <p data-lang="job_title_1">Yazılım Geliştirme Destek Görevlisi</p>
+                        <span class="experience-date">Temmuz - Ağustos 2025</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Bia Yazılım</h3>
+                        <p data-lang="job_title_2">Frontend Web Developer</p>
+                        <span class="experience-date">Temmuz - Ağustos 2024</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3 data-lang="certificates">Sertifikalar</h3>
+                        <p data-lang="cert_text">
+                            Certified Associate Penetration Tester (CAPT), Türkiye Siber Vatan Programı 2025,
+                            Database Programming with SQL, Database Design with Oracle
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span> <span data-lang="skills_title">Yetenekler & İlgi Alanları</span>
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-shield-virus"></i>
+                        <h3 data-lang="skill_cyber">Siber Güvenlik</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span data-lang="skill_network">Ağ Güvenliği</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span data-lang="skill_pentest">Sızma Testleri</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span data-lang="skill_security">Güvenlik Analizi</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3 data-lang="skill_web">Web Geliştirme</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>HTML/CSS/JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span data-lang="skill_framework">Frontend Framework'ler</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span data-lang="skill_responsive">Responsive Tasarım</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3 data-lang="skill_tools">Araçlar & Teknolojiler</h3>
+                    </div>
+                    <div class="tech-icons">
+                        <div class="tech-icon" title="Git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="tech-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="tech-icon" title="Linux">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <div class="tech-icon" title="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="tech-icon" title="JavaScript">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="tech-icon" title="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span> <span data-lang="contact_title">İletişim</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3 data-lang="contact_heading">Hadi Birlikte Çalışalım!</h3>
+                    <p data-lang="contact_text">Yeni projeler, iş birlikleri veya sadece merhaba demek için benimle iletişime geçebilirsiniz.</p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:sdnratsy@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
+                        <span data-lang="email_text">E-posta</span>
+                    </a>
+                    <a href="https://github.com/sdnratasoy" target="_blank" rel="noopener noreferrer"
+                        class="social-link github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sudenuratasoy" target="_blank" rel="noopener noreferrer"
+                        class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-lang="footer_text">&copy; 2024 Sude Nur Atasoy. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <div class="particles" id="particles"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
